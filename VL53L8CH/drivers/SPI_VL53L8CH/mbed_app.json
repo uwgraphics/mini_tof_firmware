@@ -1,0 +1,12 @@
+{
+    "macros": [
+        "MBED_HEAP_STATS_ENABLED=1"
+    ],
+
+        "target_overrides": {
+        "*": {
+            "target.printf_lib": "std"
+        }
+    }
+}
+
